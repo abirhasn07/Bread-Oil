@@ -1,0 +1,15 @@
+.our-blog {
+  background-color: #170d33 !important;
+}
+.coming-soon {
+  width: 100%;
+}
+.blog-header {
+  background-color: #170d33 !important;
+}
+
+.coming-soon > img {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+}

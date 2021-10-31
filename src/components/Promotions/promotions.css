@@ -1,0 +1,88 @@
+.promotions {
+  width: 100%;
+  max-width: var(--Tv);
+  margin: 0 auto;
+  padding: 70px 0;
+  height: 100%;
+}
+.promotions-container {
+  width: 90%;
+  margin: 0 auto;
+  background: var(--ash);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 35px;
+}
+
+.promotions-img {
+  width: 50%;
+}
+.promotions-img > img {
+  width: 80%;
+  margin: 0 auto;
+  object-fit: cover;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.promotions-info {
+  width: 45%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.promotions-info > h4 {
+  color: var(--black);
+  font-size: 18px;
+}
+.promotions-info h4 > span {
+  color: var(--brown);
+}
+.promotions-info > h2 {
+  font-size: 30px;
+  color: var(--black);
+}
+.promotions-info > p {
+  padding-bottom: 20px;
+}
+.promotions-info > input {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: 1px solid var(--brown);
+  padding: 5px;
+  outline: none;
+}
+.Subscribe {
+  background: var(--brown);
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--black);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .promotions-container {
+    flex-direction: column;
+  }
+  .promotions-img,
+  .promotions-info {
+    width: 100%;
+    margin: 25px 0;
+  }
+  .promotions-img > img {
+    width: 90%;
+  }
+  .promotions-info > h2 {
+    font-size: 20px;
+  }
+  .Subscribe {
+    margin-left: 5px;
+  }
+}

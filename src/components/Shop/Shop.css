@@ -1,0 +1,32 @@
+.shop {
+  background-color: var(--ash);
+}
+.shop-container {
+  padding: 60px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.shop-header {
+  width: 100%;
+  text-align: center;
+  background-color: var(--black);
+  padding: 100px 0;
+}
+.title {
+  color: var(--white);
+  font-size: 36px;
+}
+.shop-header > h4 {
+  color: var(--white);
+}
+.shop-card {
+  background-color: var(--white);
+}
+
+@media (max-width: 768px) {
+  .shop-container {
+    padding: 0 0px;
+  }
+}

@@ -1,0 +1,153 @@
+.contact {
+  background-color: var(--white);
+}
+
+.contact-container {
+  padding: 60px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-header {
+  width: 100%;
+  text-align: center;
+  background-color: var(--black);
+  padding: 100px 0;
+}
+.contact-header > h4 {
+  color: var(--ash);
+}
+.contact-info {
+  width: 30%;
+  background-color: var(--black);
+}
+.contact-form {
+  width: 60%;
+}
+.contact-form > form {
+  width: 100%;
+}
+.contact-form > form > input {
+  width: 40%;
+  padding: 10px;
+  margin: 10px;
+  font-family: fontSecondary;
+  font-size: 18px;
+  outline: none;
+}
+.form-title {
+  font-size: 34px;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+.form-text {
+  margin-left: 10px;
+  padding: 25px 0;
+}
+
+textarea {
+  margin-left: 10px;
+  font-family: var (--fontSecondary);
+  font-size: 18px;
+  padding: 10px;
+  outline: none;
+  margin-top: 10px;
+}
+
+#submit-btn {
+  font-size: var(--btn);
+  font-weight: 600;
+  font-family: var(--fontMain);
+  padding: 9px 30px;
+  background-color: var(--brown);
+  color: var(--black);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border: transparent;
+  cursor: pointer;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.contact-info {
+  padding: 40px 20px 90px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.address {
+  width: 100%;
+  color: var(--ash);
+  border-bottom: 1px dotted var(--brown);
+  padding-bottom: 20px;
+}
+.address > a {
+  color: var(--ash);
+  font-family: var(--fontSecondary);
+  font-weight: 300;
+}
+
+.contact-title {
+  color: var(--ash);
+}
+.Phone {
+  width: 100%;
+  color: var(--ash);
+  border-bottom: 1px dotted var(--brown);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.Phone > a {
+  color: var(--ash);
+  font-family: var(--fontSecondary);
+  font-weight: 300;
+}
+.Website {
+  width: 100%;
+  color: var(--ash);
+  border-bottom: 1px dotted var(--brown);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.Website > a {
+  color: var(--ash);
+  font-family: var(--fontSecondary);
+}
+
+@media (max-width: 768px) {
+  .contact {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .contact-container {
+    padding: 0;
+  }
+  .contact-header {
+    padding: 30px 0;
+  }
+  .contact-info {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .contact-form {
+    padding: 0 15px;
+    width: 100%;
+  }
+  .form-text {
+    width: 80%;
+  }
+  .contact-form > form > input {
+    width: 70%;
+  }
+}
